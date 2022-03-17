@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  TripViewer
+
+  Created by Tudor Octavian Ana on 14.03.2022.
+  
+*/
+
+"Sort items in the list in ascending or descending order" = "Trier les éléments de la liste par ordre croissant ou décroissant";
+"Ascending" = "Ascendante";
+"Descending" = "Descendante";
+"Cancel" = "Annuler";

@@ -1,0 +1,60 @@
+
+/* Class = "UILabel"; text = "End location"; ObjectID = "2sF-BK-Rik"; */
+"2sF-BK-Rik.text" = "Lieu de fin";
+
+/* Class = "UILabel"; text = "26 JUN"; ObjectID = "88x-6J-vrn"; */
+"88x-6J-vrn.text" = "";
+
+/* Class = "UILabel"; text = "End time"; ObjectID = "8RM-iP-x5L"; */
+"8RM-iP-x5L.text" = "Heure de fin";
+
+/* Class = "UITableViewSection"; footerTitle = "21hs 45min"; ObjectID = "8hM-Rd-NsF"; */
+"8hM-Rd-NsF.footerTitle" = "";
+
+/* Class = "UITableViewSection"; headerTitle = "Time duration"; ObjectID = "8hM-Rd-NsF"; */
+"8hM-Rd-NsF.headerTitle" = "Durée";
+
+/* Class = "UIBarButtonItem"; title = "License"; ObjectID = "EsH-wc-SBg"; */
+"EsH-wc-SBg.title" = "Licence";
+
+/* Class = "UILabel"; text = "28 JUN"; ObjectID = "FJP-TW-Jx5"; */
+"FJP-TW-Jx5.text" = "";
+
+/* Class = "UILabel"; text = "20:12"; ObjectID = "G4J-5m-nlC"; */
+"G4J-5m-nlC.text" = "";
+
+/* Class = "UINavigationItem"; title = "Trips"; ObjectID = "RGB-cp-TwV"; */
+"RGB-cp-TwV.title" = "Voyages";
+
+/* Class = "UITextView"; text = "Copyright 2022 Tudor Octavian Ana\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."; ObjectID = "SAB-eh-8ny"; */
+"SAB-eh-8ny.text" = "Copyright 2022 Tudor Octavian Ana\n\nL'autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le \"Logiciel\"), d'utiliser le Logiciel sans restriction, y compris, sans limitation les droits d'utiliser, de copier, de modifier, de fusionner, de publier, de distribuer, de sous-licencier et/ou de vendre des copies du Logiciel, et d'autoriser les personnes à qui le Logiciel est fourni à le faire, sous réserve des conditions suivantes :\n\nLe l'avis de droit d'auteur ci-dessus et cet avis d'autorisation doivent être inclus dans toutes les copies ou parties substantielles du logiciel.\n\nLE LOGICIEL EST FOURNI \"TEL QUEL\", SANS GARANTIE D'AUCUNE SORTE, EXPRESSE OU IMPLICITE, Y COMPRIS MAIS SANS S'Y LIMITER GARANTIES DE QUALITÉ MARCHANDE, D'ADÉQUATION À UN USAGE PARTICULIER ET D'ABSENCE DE CONTREFAÇON. EN AUCUN CAS, LES AUTEURS OU LES DÉTENTEURS DU COPYRIGHT NE SERONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGE OU AUTRE RESPONSABILITÉ, QUE CE SOIT DANS UNE ACTION CONTRACTUELLE, DÉLICTUELLE OU AUTRE, DÉCOULANT DE, DE OU EN RELATION AVEC LE LOGICIEL OU L'UTILISATION OU D'AUTRES TRANSACTIONS DANS LE LOGICIEL.";
+
+/* Class = "UILabel"; text = "18:30"; ObjectID = "Ts7-A8-ki0"; */
+"Ts7-A8-ki0.text" = "";
+
+/* Class = "UILabel"; text = "Start location"; ObjectID = "WvU-hM-Jer"; */
+"WvU-hM-Jer.text" = "Lieu de départ";
+
+/* Class = "UINavigationItem"; title = "Details"; ObjectID = "eEu-oH-r44"; */
+"eEu-oH-r44.title" = "Des détails";
+
+/* Class = "UILabel"; text = "Bucharest"; ObjectID = "h1O-oM-cMY"; */
+"h1O-oM-cMY.text" = "";
+
+/* Class = "UINavigationItem"; title = "License"; ObjectID = "hQU-Zv-b3k"; */
+"hQU-Zv-b3k.title" = "Licence";
+
+/* Class = "UILabel"; text = "Start time"; ObjectID = "laO-vS-Pug"; */
+"laO-vS-Pug.text" = "Heure de début";
+
+/* Class = "UILabel"; text = "Bucharest"; ObjectID = "nME-hi-oru"; */
+"nME-hi-oru.text" = "";
+
+/* Class = "UILabel"; text = "Romania"; ObjectID = "qVG-Bf-sHA"; */
+"qVG-Bf-sHA.text" = "";
+
+/* Class = "UILabel"; text = "Romania"; ObjectID = "rv6-iG-1Ej"; */
+"rv6-iG-1Ej.text" = "";
+
+/* Class = "UITableViewSection"; headerTitle = "Location details"; ObjectID = "wOv-5o-ig9"; */
+"wOv-5o-ig9.headerTitle" = "Détails de l'emplacement";

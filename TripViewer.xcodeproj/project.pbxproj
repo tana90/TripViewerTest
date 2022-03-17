@@ -7,15 +7,93 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		270B15E927DF5ED60023EBAA /* EndpointErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270B15E827DF5ED60023EBAA /* EndpointErrorTests.swift */; };
+		270B15EA27DF5F5F0023EBAA /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE165127DA57F10032035C /* Errors.swift */; };
+		270B15EB27DF5F950023EBAA /* TripsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE163427DA518F0032035C /* TripsViewController.swift */; };
+		270B15EC27DF5F9C0023EBAA /* TripsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE163A27DA51CF0032035C /* TripsViewModel.swift */; };
+		270B15ED27DF5FC90023EBAA /* TripsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE165A27DA5C350032035C /* TripsResponse.swift */; };
+		270B15EE27DF5FC90023EBAA /* TripsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE165A27DA5C350032035C /* TripsResponse.swift */; };
+		270B15EF27DF5FCB0023EBAA /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE165427DA58D60032035C /* Trip.swift */; };
+		270B15F327DF5FCF0023EBAA /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE165827DA5A1B0032035C /* Location.swift */; };
+		270B15F427DF5FCF0023EBAA /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE165627DA59BD0032035C /* Route.swift */; };
+		270B15F527DF5FCF0023EBAA /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE165427DA58D60032035C /* Trip.swift */; };
+		270B15F627DF5FCF0023EBAA /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE165827DA5A1B0032035C /* Location.swift */; };
+		270B15F727DF5FCF0023EBAA /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE165627DA59BD0032035C /* Route.swift */; };
+		270B15F827DF5FD30023EBAA /* Connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE164B27DA56BD0032035C /* Connector.swift */; };
+		270B15F927DF5FD30023EBAA /* ValidationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE164F27DA57B00032035C /* ValidationService.swift */; };
+		270B15FA27DF5FD30023EBAA /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE164D27DA56CC0032035C /* Urls.swift */; };
+		270B15FB27DF5FD30023EBAA /* Connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE164B27DA56BD0032035C /* Connector.swift */; };
+		270B15FC27DF5FD30023EBAA /* ValidationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE164F27DA57B00032035C /* ValidationService.swift */; };
+		270B15FD27DF5FD30023EBAA /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE164D27DA56CC0032035C /* Urls.swift */; };
+		270B15FE27DF5FD60023EBAA /* TripViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE164227DA52B40032035C /* TripViewCell.swift */; };
+		270B15FF27DF5FD60023EBAA /* TripViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE164227DA52B40032035C /* TripViewCell.swift */; };
+		270B160027DF5FDB0023EBAA /* TripViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27BE164427DA52C40032035C /* TripViewCell.xib */; };
+		270B160127DF5FDB0023EBAA /* TripViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27BE164427DA52C40032035C /* TripViewCell.xib */; };
+		270B160227DF5FDE0023EBAA /* InfoLoadingTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE163E27DA52430032035C /* InfoLoadingTableView.swift */; };
+		270B160327DF5FE00023EBAA /* LicenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B8EB7B27DCAD92002991B3 /* LicenseViewController.swift */; };
+		270B160427DF5FE10023EBAA /* LicenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B8EB7B27DCAD92002991B3 /* LicenseViewController.swift */; };
+		270B160527DF5FE60023EBAA /* TripDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE166327DC89160032035C /* TripDetailsViewController.swift */; };
+		270B160627DF5FE60023EBAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE160227DA51000032035C /* SceneDelegate.swift */; };
+		270B160727DF5FE60023EBAA /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE164827DA551C0032035C /* Keys.swift */; };
+		270B160827DF5FE60023EBAA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE165C27DA654D0032035C /* Extensions.swift */; };
+		270B160927DF5FE60023EBAA /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE164627DA53190032035C /* UIExtensions.swift */; };
+		270B160A27DF5FE60023EBAA /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B8EB7827DCAC4C002991B3 /* Config.swift */; };
+		270B160B27DF5FE60023EBAA /* TripDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE166527DC89210032035C /* TripDetailsViewModel.swift */; };
+		270B160C27DF5FE60023EBAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE160027DA51000032035C /* AppDelegate.swift */; };
+		270B160D27DF5FE70023EBAA /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE165127DA57F10032035C /* Errors.swift */; };
+		270B160E27DF5FE70023EBAA /* TripDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE166327DC89160032035C /* TripDetailsViewController.swift */; };
+		270B160F27DF5FE70023EBAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE160227DA51000032035C /* SceneDelegate.swift */; };
+		270B161027DF5FE70023EBAA /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE164827DA551C0032035C /* Keys.swift */; };
+		270B161127DF5FE70023EBAA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE165C27DA654D0032035C /* Extensions.swift */; };
+		270B161227DF5FE70023EBAA /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE164627DA53190032035C /* UIExtensions.swift */; };
+		270B161327DF5FE70023EBAA /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B8EB7827DCAC4C002991B3 /* Config.swift */; };
+		270B161427DF5FE70023EBAA /* TripDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE166527DC89210032035C /* TripDetailsViewModel.swift */; };
+		270B161527DF5FE70023EBAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE160027DA51000032035C /* AppDelegate.swift */; };
+		270B161627DF69DB0023EBAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27BE160627DA51000032035C /* Main.storyboard */; };
+		270B161727DF69DE0023EBAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27BE160B27DA51010032035C /* LaunchScreen.storyboard */; };
+		270B161A27DF6A200023EBAA /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 270B161927DF6A200023EBAA /* Kingfisher */; };
+		270B161D27DF6A770023EBAA /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 270B161C27DF6A770023EBAA /* Kingfisher */; };
+		270B161F27DF6A7A0023EBAA /* AWNetworkManager in Frameworks */ = {isa = PBXBuildFile; productRef = 270B161E27DF6A7A0023EBAA /* AWNetworkManager */; };
+		270B162127DF71710023EBAA /* ConnectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270B162027DF71710023EBAA /* ConnectorTests.swift */; };
+		270B162327DF74650023EBAA /* ProtocolConformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270B162227DF74650023EBAA /* ProtocolConformanceTests.swift */; };
+		270B162427DF77540023EBAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27BE160627DA51000032035C /* Main.storyboard */; };
+		270B162527DF776C0023EBAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27BE160B27DA51010032035C /* LaunchScreen.storyboard */; };
+		270B162727DF78AD0023EBAA /* UtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270B162627DF78AD0023EBAA /* UtilsTests.swift */; };
+		270B163227DF8B530023EBAA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 270B163627DF8B530023EBAA /* Localizable.strings */; };
+		270B163327DF8B530023EBAA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 270B163627DF8B530023EBAA /* Localizable.strings */; };
+		270B163427DF8B530023EBAA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 270B163627DF8B530023EBAA /* Localizable.strings */; };
+		27B8EB7927DCAC4C002991B3 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B8EB7827DCAC4C002991B3 /* Config.swift */; };
+		27B8EB7C27DCAD92002991B3 /* LicenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B8EB7B27DCAD92002991B3 /* LicenseViewController.swift */; };
 		27BE160127DA51000032035C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE160027DA51000032035C /* AppDelegate.swift */; };
 		27BE160327DA51000032035C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE160227DA51000032035C /* SceneDelegate.swift */; };
-		27BE160527DA51000032035C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE160427DA51000032035C /* ViewController.swift */; };
 		27BE160827DA51000032035C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27BE160627DA51000032035C /* Main.storyboard */; };
 		27BE160A27DA51010032035C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27BE160927DA51010032035C /* Assets.xcassets */; };
 		27BE160D27DA51010032035C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27BE160B27DA51010032035C /* LaunchScreen.storyboard */; };
 		27BE161827DA51010032035C /* TripViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE161727DA51010032035C /* TripViewerTests.swift */; };
 		27BE162227DA51010032035C /* TripViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE162127DA51010032035C /* TripViewerUITests.swift */; };
 		27BE162427DA51010032035C /* TripViewerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE162327DA51010032035C /* TripViewerUITestsLaunchTests.swift */; };
+		27BE163527DA518F0032035C /* TripsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE163427DA518F0032035C /* TripsViewController.swift */; };
+		27BE163627DA518F0032035C /* TripsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE163427DA518F0032035C /* TripsViewController.swift */; };
+		27BE163927DA51BE0032035C /* AWNetworkManager in Frameworks */ = {isa = PBXBuildFile; productRef = 27BE163827DA51BE0032035C /* AWNetworkManager */; };
+		27BE163B27DA51CF0032035C /* TripsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE163A27DA51CF0032035C /* TripsViewModel.swift */; };
+		27BE163C27DA51CF0032035C /* TripsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE163A27DA51CF0032035C /* TripsViewModel.swift */; };
+		27BE163F27DA52430032035C /* InfoLoadingTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE163E27DA52430032035C /* InfoLoadingTableView.swift */; };
+		27BE164027DA52430032035C /* InfoLoadingTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE163E27DA52430032035C /* InfoLoadingTableView.swift */; };
+		27BE164327DA52B40032035C /* TripViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE164227DA52B40032035C /* TripViewCell.swift */; };
+		27BE164527DA52C40032035C /* TripViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27BE164427DA52C40032035C /* TripViewCell.xib */; };
+		27BE164727DA53190032035C /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE164627DA53190032035C /* UIExtensions.swift */; };
+		27BE164927DA551C0032035C /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE164827DA551C0032035C /* Keys.swift */; };
+		27BE164C27DA56BD0032035C /* Connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE164B27DA56BD0032035C /* Connector.swift */; };
+		27BE164E27DA56CC0032035C /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE164D27DA56CC0032035C /* Urls.swift */; };
+		27BE165027DA57B00032035C /* ValidationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE164F27DA57B00032035C /* ValidationService.swift */; };
+		27BE165227DA57F10032035C /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE165127DA57F10032035C /* Errors.swift */; };
+		27BE165527DA58D60032035C /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE165427DA58D60032035C /* Trip.swift */; };
+		27BE165727DA59BD0032035C /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE165627DA59BD0032035C /* Route.swift */; };
+		27BE165927DA5A1B0032035C /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE165827DA5A1B0032035C /* Location.swift */; };
+		27BE165B27DA5C350032035C /* TripsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE165A27DA5C350032035C /* TripsResponse.swift */; };
+		27BE165D27DA654D0032035C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE165C27DA654D0032035C /* Extensions.swift */; };
+		27BE166427DC89160032035C /* TripDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE166327DC89160032035C /* TripDetailsViewController.swift */; };
+		27BE166627DC89210032035C /* TripDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE166527DC89210032035C /* TripDetailsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +114,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		270B15E827DF5ED60023EBAA /* EndpointErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointErrorTests.swift; sourceTree = "<group>"; };
+		270B162027DF71710023EBAA /* ConnectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectorTests.swift; sourceTree = "<group>"; };
+		270B162227DF74650023EBAA /* ProtocolConformanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolConformanceTests.swift; sourceTree = "<group>"; };
+		270B162627DF78AD0023EBAA /* UtilsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilsTests.swift; sourceTree = "<group>"; };
+		270B163027DF89C50023EBAA /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		270B163127DF89C50023EBAA /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		270B163527DF8B530023EBAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		270B163727DF8B890023EBAA /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		27B8EB7827DCAC4C002991B3 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		27B8EB7B27DCAD92002991B3 /* LicenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseViewController.swift; sourceTree = "<group>"; };
 		27BE15FD27DA51000032035C /* TripViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27BE160027DA51000032035C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27BE160227DA51000032035C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		27BE160427DA51000032035C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		27BE160727DA51000032035C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27BE160927DA51010032035C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27BE160C27DA51010032035C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +136,24 @@
 		27BE161D27DA51010032035C /* TripViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27BE162127DA51010032035C /* TripViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripViewerUITests.swift; sourceTree = "<group>"; };
 		27BE162327DA51010032035C /* TripViewerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripViewerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		27BE163427DA518F0032035C /* TripsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsViewController.swift; sourceTree = "<group>"; };
+		27BE163A27DA51CF0032035C /* TripsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsViewModel.swift; sourceTree = "<group>"; };
+		27BE163E27DA52430032035C /* InfoLoadingTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoLoadingTableView.swift; sourceTree = "<group>"; };
+		27BE164227DA52B40032035C /* TripViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripViewCell.swift; sourceTree = "<group>"; };
+		27BE164427DA52C40032035C /* TripViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TripViewCell.xib; sourceTree = "<group>"; };
+		27BE164627DA53190032035C /* UIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
+		27BE164827DA551C0032035C /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
+		27BE164B27DA56BD0032035C /* Connector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connector.swift; sourceTree = "<group>"; };
+		27BE164D27DA56CC0032035C /* Urls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Urls.swift; sourceTree = "<group>"; };
+		27BE164F27DA57B00032035C /* ValidationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationService.swift; sourceTree = "<group>"; };
+		27BE165127DA57F10032035C /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		27BE165427DA58D60032035C /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		27BE165627DA59BD0032035C /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		27BE165827DA5A1B0032035C /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		27BE165A27DA5C350032035C /* TripsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsResponse.swift; sourceTree = "<group>"; };
+		27BE165C27DA654D0032035C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		27BE166327DC89160032035C /* TripDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailsViewController.swift; sourceTree = "<group>"; };
+		27BE166527DC89210032035C /* TripDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +161,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				270B161A27DF6A200023EBAA /* Kingfisher in Frameworks */,
+				27BE163927DA51BE0032035C /* AWNetworkManager in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +177,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				270B161D27DF6A770023EBAA /* Kingfisher in Frameworks */,
+				270B161F27DF6A7A0023EBAA /* AWNetworkManager in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		270B161B27DF6A770023EBAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27B8EB7A27DCAD87002991B3 /* License */ = {
+			isa = PBXGroup;
+			children = (
+				27B8EB7B27DCAD92002991B3 /* LicenseViewController.swift */,
+			);
+			path = License;
+			sourceTree = "<group>";
+		};
 		27BE15F427DA51000032035C = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +207,7 @@
 				27BE161627DA51010032035C /* TripViewerTests */,
 				27BE162027DA51010032035C /* TripViewerUITests */,
 				27BE15FE27DA51000032035C /* Products */,
+				270B161B27DF6A770023EBAA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +224,8 @@
 		27BE15FF27DA51000032035C /* TripViewer */ = {
 			isa = PBXGroup;
 			children = (
-				27BE160027DA51000032035C /* AppDelegate.swift */,
-				27BE160227DA51000032035C /* SceneDelegate.swift */,
-				27BE160427DA51000032035C /* ViewController.swift */,
-				27BE160627DA51000032035C /* Main.storyboard */,
-				27BE160927DA51010032035C /* Assets.xcassets */,
-				27BE160B27DA51010032035C /* LaunchScreen.storyboard */,
+				27BE163127DA51660032035C /* Resources */,
+				27BE163027DA51610032035C /* Sources */,
 				27BE160E27DA51010032035C /* Info.plist */,
 			);
 			path = TripViewer;
@@ -114,6 +235,10 @@
 			isa = PBXGroup;
 			children = (
 				27BE161727DA51010032035C /* TripViewerTests.swift */,
+				270B15E827DF5ED60023EBAA /* EndpointErrorTests.swift */,
+				270B162027DF71710023EBAA /* ConnectorTests.swift */,
+				270B162227DF74650023EBAA /* ProtocolConformanceTests.swift */,
+				270B162627DF78AD0023EBAA /* UtilsTests.swift */,
 			);
 			path = TripViewerTests;
 			sourceTree = "<group>";
@@ -127,6 +252,110 @@
 			path = TripViewerUITests;
 			sourceTree = "<group>";
 		};
+		27BE163027DA51610032035C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				27BE165327DA58CC0032035C /* Models */,
+				27BE164A27DA56AE0032035C /* Connector */,
+				27BE163D27DA52250032035C /* Views */,
+				27BE163327DA51790032035C /* Screens */,
+				27BE163227DA51740032035C /* Extensions */,
+				27BE160027DA51000032035C /* AppDelegate.swift */,
+				27BE160227DA51000032035C /* SceneDelegate.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		27BE163127DA51660032035C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				27BE160927DA51010032035C /* Assets.xcassets */,
+				27BE160627DA51000032035C /* Main.storyboard */,
+				27BE160B27DA51010032035C /* LaunchScreen.storyboard */,
+				270B163627DF8B530023EBAA /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		27BE163227DA51740032035C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				27BE164627DA53190032035C /* UIExtensions.swift */,
+				27BE165C27DA654D0032035C /* Extensions.swift */,
+				27BE164827DA551C0032035C /* Keys.swift */,
+				27BE165127DA57F10032035C /* Errors.swift */,
+				27B8EB7827DCAC4C002991B3 /* Config.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		27BE163327DA51790032035C /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				27B8EB7A27DCAD87002991B3 /* License */,
+				27BE166227DC89090032035C /* Details */,
+				27BE166127DB63FF0032035C /* Trips */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		27BE163D27DA52250032035C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				27BE164127DA52A10032035C /* Cells */,
+				27BE163E27DA52430032035C /* InfoLoadingTableView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		27BE164127DA52A10032035C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				27BE164227DA52B40032035C /* TripViewCell.swift */,
+				27BE164427DA52C40032035C /* TripViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		27BE164A27DA56AE0032035C /* Connector */ = {
+			isa = PBXGroup;
+			children = (
+				27BE164B27DA56BD0032035C /* Connector.swift */,
+				27BE164D27DA56CC0032035C /* Urls.swift */,
+				27BE164F27DA57B00032035C /* ValidationService.swift */,
+			);
+			path = Connector;
+			sourceTree = "<group>";
+		};
+		27BE165327DA58CC0032035C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				27BE165A27DA5C350032035C /* TripsResponse.swift */,
+				27BE165427DA58D60032035C /* Trip.swift */,
+				27BE165627DA59BD0032035C /* Route.swift */,
+				27BE165827DA5A1B0032035C /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		27BE166127DB63FF0032035C /* Trips */ = {
+			isa = PBXGroup;
+			children = (
+				27BE163A27DA51CF0032035C /* TripsViewModel.swift */,
+				27BE163427DA518F0032035C /* TripsViewController.swift */,
+			);
+			path = Trips;
+			sourceTree = "<group>";
+		};
+		27BE166227DC89090032035C /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				27BE166527DC89210032035C /* TripDetailsViewModel.swift */,
+				27BE166327DC89160032035C /* TripDetailsViewController.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,12 +366,17 @@
 				27BE15F927DA51000032035C /* Sources */,
 				27BE15FA27DA51000032035C /* Frameworks */,
 				27BE15FB27DA51000032035C /* Resources */,
+				270B163827DF8C980023EBAA /* SwiftLint */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = TripViewer;
+			packageProductDependencies = (
+				27BE163827DA51BE0032035C /* AWNetworkManager */,
+				270B161927DF6A200023EBAA /* Kingfisher */,
+			);
 			productName = TripViewer;
 			productReference = 27BE15FD27DA51000032035C /* TripViewer.app */;
 			productType = "com.apple.product-type.application";
@@ -179,6 +413,10 @@
 				27BE161F27DA51010032035C /* PBXTargetDependency */,
 			);
 			name = TripViewerUITests;
+			packageProductDependencies = (
+				270B161C27DF6A770023EBAA /* Kingfisher */,
+				270B161E27DF6A7A0023EBAA /* AWNetworkManager */,
+			);
 			productName = TripViewerUITests;
 			productReference = 27BE161D27DA51010032035C /* TripViewerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -213,8 +451,13 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = 27BE15F427DA51000032035C;
+			packageReferences = (
+				27BE163727DA51BE0032035C /* XCRemoteSwiftPackageReference "AWNetworkManager" */,
+				270B161827DF6A200023EBAA /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 27BE15FE27DA51000032035C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,9 +474,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				270B163227DF8B530023EBAA /* Localizable.strings in Resources */,
 				27BE160D27DA51010032035C /* LaunchScreen.storyboard in Resources */,
 				27BE160A27DA51010032035C /* Assets.xcassets in Resources */,
 				27BE160827DA51000032035C /* Main.storyboard in Resources */,
+				27BE164527DA52C40032035C /* TripViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +486,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				270B162527DF776C0023EBAA /* LaunchScreen.storyboard in Resources */,
+				270B163327DF8B530023EBAA /* Localizable.strings in Resources */,
+				270B160027DF5FDB0023EBAA /* TripViewCell.xib in Resources */,
+				270B162427DF77540023EBAA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,19 +497,62 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				270B161727DF69DE0023EBAA /* LaunchScreen.storyboard in Resources */,
+				270B163427DF8B530023EBAA /* Localizable.strings in Resources */,
+				270B160127DF5FDB0023EBAA /* TripViewCell.xib in Resources */,
+				270B161627DF69DB0023EBAA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		270B163827DF8C980023EBAA /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint --config ../.swiftlint.yml\nelse\n  echo \"Warning: SwiftLint not installed\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		27BE15F927DA51000032035C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27BE160527DA51000032035C /* ViewController.swift in Sources */,
+				27BE164C27DA56BD0032035C /* Connector.swift in Sources */,
+				27BE163B27DA51CF0032035C /* TripsViewModel.swift in Sources */,
+				27BE164927DA551C0032035C /* Keys.swift in Sources */,
+				27BE164727DA53190032035C /* UIExtensions.swift in Sources */,
+				27BE165227DA57F10032035C /* Errors.swift in Sources */,
+				27BE165727DA59BD0032035C /* Route.swift in Sources */,
+				27BE164E27DA56CC0032035C /* Urls.swift in Sources */,
+				27B8EB7C27DCAD92002991B3 /* LicenseViewController.swift in Sources */,
+				27BE165927DA5A1B0032035C /* Location.swift in Sources */,
+				27BE166427DC89160032035C /* TripDetailsViewController.swift in Sources */,
+				27BE163F27DA52430032035C /* InfoLoadingTableView.swift in Sources */,
+				27BE165527DA58D60032035C /* Trip.swift in Sources */,
+				27BE166627DC89210032035C /* TripDetailsViewModel.swift in Sources */,
 				27BE160127DA51000032035C /* AppDelegate.swift in Sources */,
+				27BE165B27DA5C350032035C /* TripsResponse.swift in Sources */,
+				27BE165027DA57B00032035C /* ValidationService.swift in Sources */,
 				27BE160327DA51000032035C /* SceneDelegate.swift in Sources */,
+				27BE165D27DA654D0032035C /* Extensions.swift in Sources */,
+				27B8EB7927DCAC4C002991B3 /* Config.swift in Sources */,
+				27BE163527DA518F0032035C /* TripsViewController.swift in Sources */,
+				27BE164327DA52B40032035C /* TripViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +560,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				270B15EC27DF5F9C0023EBAA /* TripsViewModel.swift in Sources */,
+				270B15ED27DF5FC90023EBAA /* TripsResponse.swift in Sources */,
+				270B162327DF74650023EBAA /* ProtocolConformanceTests.swift in Sources */,
 				27BE161827DA51010032035C /* TripViewerTests.swift in Sources */,
+				270B160927DF5FE60023EBAA /* UIExtensions.swift in Sources */,
+				270B160B27DF5FE60023EBAA /* TripDetailsViewModel.swift in Sources */,
+				270B162127DF71710023EBAA /* ConnectorTests.swift in Sources */,
+				270B15FE27DF5FD60023EBAA /* TripViewCell.swift in Sources */,
+				270B160327DF5FE00023EBAA /* LicenseViewController.swift in Sources */,
+				270B160227DF5FDE0023EBAA /* InfoLoadingTableView.swift in Sources */,
+				270B15FA27DF5FD30023EBAA /* Urls.swift in Sources */,
+				270B160827DF5FE60023EBAA /* Extensions.swift in Sources */,
+				270B160727DF5FE60023EBAA /* Keys.swift in Sources */,
+				270B160627DF5FE60023EBAA /* SceneDelegate.swift in Sources */,
+				270B15F827DF5FD30023EBAA /* Connector.swift in Sources */,
+				270B162727DF78AD0023EBAA /* UtilsTests.swift in Sources */,
+				270B15F527DF5FCF0023EBAA /* Trip.swift in Sources */,
+				270B15EB27DF5F950023EBAA /* TripsViewController.swift in Sources */,
+				270B15EA27DF5F5F0023EBAA /* Errors.swift in Sources */,
+				270B15F927DF5FD30023EBAA /* ValidationService.swift in Sources */,
+				270B15F427DF5FCF0023EBAA /* Route.swift in Sources */,
+				270B160A27DF5FE60023EBAA /* Config.swift in Sources */,
+				270B15E927DF5ED60023EBAA /* EndpointErrorTests.swift in Sources */,
+				270B160527DF5FE60023EBAA /* TripDetailsViewController.swift in Sources */,
+				270B15F327DF5FCF0023EBAA /* Location.swift in Sources */,
+				270B160C27DF5FE60023EBAA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +593,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				270B15F727DF5FCF0023EBAA /* Route.swift in Sources */,
+				270B160D27DF5FE70023EBAA /* Errors.swift in Sources */,
+				27BE163627DA518F0032035C /* TripsViewController.swift in Sources */,
+				270B161227DF5FE70023EBAA /* UIExtensions.swift in Sources */,
+				270B161427DF5FE70023EBAA /* TripDetailsViewModel.swift in Sources */,
+				270B15EE27DF5FC90023EBAA /* TripsResponse.swift in Sources */,
+				270B15FF27DF5FD60023EBAA /* TripViewCell.swift in Sources */,
+				270B15FD27DF5FD30023EBAA /* Urls.swift in Sources */,
+				270B15FB27DF5FD30023EBAA /* Connector.swift in Sources */,
+				270B161127DF5FE70023EBAA /* Extensions.swift in Sources */,
+				270B161027DF5FE70023EBAA /* Keys.swift in Sources */,
+				270B160F27DF5FE70023EBAA /* SceneDelegate.swift in Sources */,
+				270B15F627DF5FCF0023EBAA /* Location.swift in Sources */,
+				270B160427DF5FE10023EBAA /* LicenseViewController.swift in Sources */,
+				27BE164027DA52430032035C /* InfoLoadingTableView.swift in Sources */,
 				27BE162227DA51010032035C /* TripViewerUITests.swift in Sources */,
+				270B15FC27DF5FD30023EBAA /* ValidationService.swift in Sources */,
 				27BE162427DA51010032035C /* TripViewerUITestsLaunchTests.swift in Sources */,
+				270B161327DF5FE70023EBAA /* Config.swift in Sources */,
+				270B15EF27DF5FCB0023EBAA /* Trip.swift in Sources */,
+				270B160E27DF5FE70023EBAA /* TripDetailsViewController.swift in Sources */,
+				27BE163C27DA51CF0032035C /* TripsViewModel.swift in Sources */,
+				270B161527DF5FE70023EBAA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,10 +635,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		270B163627DF8B530023EBAA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				270B163527DF8B530023EBAA /* en */,
+				270B163727DF8B890023EBAA /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		27BE160627DA51000032035C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				27BE160727DA51000032035C /* Base */,
+				270B163027DF89C50023EBAA /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -309,6 +657,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				27BE160C27DA51010032035C /* Base */,
+				270B163127DF89C50023EBAA /* fr */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -320,6 +669,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -367,7 +717,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -381,6 +731,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -422,7 +773,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -439,7 +790,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KB5ZAP8MFS;
+				DEVELOPMENT_TEAM = 333P2Y8CY5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TripViewer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -447,6 +798,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,7 +808,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -467,7 +819,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KB5ZAP8MFS;
+				DEVELOPMENT_TEAM = 333P2Y8CY5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TripViewer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -475,6 +827,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -484,7 +837,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -604,6 +957,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		270B161827DF6A200023EBAA /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		27BE163727DA51BE0032035C /* XCRemoteSwiftPackageReference "AWNetworkManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tana90/AWNetworkManager.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		270B161927DF6A200023EBAA /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 270B161827DF6A200023EBAA /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		270B161C27DF6A770023EBAA /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 270B161827DF6A200023EBAA /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		270B161E27DF6A7A0023EBAA /* AWNetworkManager */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 27BE163727DA51BE0032035C /* XCRemoteSwiftPackageReference "AWNetworkManager" */;
+			productName = AWNetworkManager;
+		};
+		27BE163827DA51BE0032035C /* AWNetworkManager */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 27BE163727DA51BE0032035C /* XCRemoteSwiftPackageReference "AWNetworkManager" */;
+			productName = AWNetworkManager;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 27BE15F527DA51000032035C /* Project object */;
 }
