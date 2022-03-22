@@ -17,7 +17,7 @@ import Combine
 protocol TripsViewModelDelegate: AnyObject {
     typealias ViewModel = TripsViewModel
     func viewModelDidFinish(_ viewModel: ViewModel)
-    func viewModel(_ viewModel: ViewModel, didFailWith error: EndpointError)
+    func viewModel(_ viewModel: ViewModel, didFailWith error: Error)
 }
 
 enum SortType {
@@ -27,6 +27,7 @@ enum SortType {
 class TripsViewModel {
     
     weak var delegate: TripsViewModelDelegate?
+    let connector = Connector<TripsResponse>()
     var observer: AnyCancellable?
     var sortType: SortType = .descending {
         didSet {
@@ -46,8 +47,7 @@ class TripsViewModel {
     var tripsSections = [TripSection]()
     
     @objc func fetch() {
-        let connector = Connector()
-        observer = connector.fetchTrips()
+        observer = connector.fetch(from: .trips)
             .receive(on: DispatchQueue.main)
             .sink { [weak self] completion in
                 guard let self = self else { return }

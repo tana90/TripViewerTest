@@ -84,7 +84,7 @@ extension TripsViewController: TripsViewModelDelegate {
         tableView.reloadData()
     }
     
-    func viewModel(_ viewModel: ViewModel, didFailWith error: EndpointError) {
+    func viewModel(_ viewModel: ViewModel, didFailWith error: Error) {
         tableView.refreshControl?.endRefreshing()
         view.showBanner(message: error.localizedDescription)
     }

@@ -17,43 +17,24 @@ import AWNetworkManager
 
 // MARK: API Connector
 
-class Connector {
+class Connector<T: Decodable> {
     
-    /// Fetch trips from API
-    func fetchTrips() -> Future<TripsResponse, EndpointError> {
-        Future { promise in
-            
-            // Validate URL
-            guard let url = try? ValidationService().url(from: Urls.trips.uri) else {
-                promise(.failure(.invalidUrl))
-                return
-            }
-
-            // Start request
-            var request = URLRequest(url: url)
-            request.timeoutInterval = 30
-            AWNetworkManager.begin(request) { result in
-                
-                switch result {
-                case .success(let data):
-
-                    do {
-                        promise(.success(try ValidationService().response(data: data)))
-                    } catch {
-                        promise(.failure(.invalidResponse))
+    var observer: AnyCancellable?
+    
+    func fetch(from endpoint: Endpoint = .trips,
+               validatedBy validationService: ValidationService = .init()) -> Future<T, Error> {
+        
+        Future { [weak self] promise in
+            self?.observer = AWNetworkManager<T>().call(endpoint: endpoint)
+                .sink { completion in
+                    switch completion {
+                    case .finished: break
+                    case .failure(let error):
+                        promise(.failure(error))
                     }
-                    
-                case .failure(let error):
-                    
-                    guard let error = error as? EndpointError else {
-                        promise(.failure(EndpointError.unexpected(code: 0)))
-                        print("Error: \(error)")
-                        return
-                    }
-                    
-                    promise(.failure(error))
+                } receiveValue: { value in
+                    promise(.success(value))
                 }
-            }
         }
     }
 }

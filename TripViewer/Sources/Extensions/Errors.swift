@@ -13,7 +13,7 @@
 
 import Foundation
 
-// MARK: Error protocol
+// MARK: Error
 
 enum EndpointError: Error, Equatable {
     case invalidResponse
@@ -21,7 +21,7 @@ enum EndpointError: Error, Equatable {
     case invalidUrl
     case noConnection
     case unexpected(code: Int)
-
+    
     var message: String? {
         switch self {
         case .invalidResponse:

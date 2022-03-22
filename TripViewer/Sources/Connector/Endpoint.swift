@@ -12,20 +12,31 @@
 //
 
 import Foundation
+import AWNetworkManager
 
 /// Defines URLs
 
-enum Urls {
+enum Endpoint: AWEndpoint {
     case trips
 }
 
-extension Urls {
+extension Endpoint {
+    
     static var baseUrl = "https://autoliv.github.io"
-
-    var uri: String {
+    
+    var url: URL {
         switch self {
         case .trips:
-            return Self.baseUrl + "/interview-data.json"
+            return URL(string: Self.baseUrl + "/interview-data.json")!
         }
     }
+    
+    var request: URLRequest {
+        switch self {
+        case .trips:
+            return URLRequest(url: Self.trips.url, timeoutInterval: 30)
+        }
+    }
+    
+    var body: Data? { return nil }
 }

@@ -33,7 +33,7 @@ struct ValidationService {
     /// - Parameter data
     /// - Throws: EndpointError
     /// - Returns: Valid response
-    func response(data: Data?) throws -> TripsResponse {
+    func response<T: Decodable>(data: Data?) throws -> T {
         
         // Check if we have data to parse
         guard let data = data else {
@@ -42,7 +42,7 @@ struct ValidationService {
         
         // Try to parse response
         do {
-            return try JSONDecoder().decode(TripsResponse.self, from: data)
+            return try JSONDecoder().decode(T.self, from: data)
         } catch {
             throw EndpointError.invalidResponse
         }

@@ -21,10 +21,10 @@
 		270B15F727DF5FCF0023EBAA /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE165627DA59BD0032035C /* Route.swift */; };
 		270B15F827DF5FD30023EBAA /* Connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE164B27DA56BD0032035C /* Connector.swift */; };
 		270B15F927DF5FD30023EBAA /* ValidationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE164F27DA57B00032035C /* ValidationService.swift */; };
-		270B15FA27DF5FD30023EBAA /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE164D27DA56CC0032035C /* Urls.swift */; };
+		270B15FA27DF5FD30023EBAA /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE164D27DA56CC0032035C /* Endpoint.swift */; };
 		270B15FB27DF5FD30023EBAA /* Connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE164B27DA56BD0032035C /* Connector.swift */; };
 		270B15FC27DF5FD30023EBAA /* ValidationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE164F27DA57B00032035C /* ValidationService.swift */; };
-		270B15FD27DF5FD30023EBAA /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE164D27DA56CC0032035C /* Urls.swift */; };
+		270B15FD27DF5FD30023EBAA /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE164D27DA56CC0032035C /* Endpoint.swift */; };
 		270B15FE27DF5FD60023EBAA /* TripViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE164227DA52B40032035C /* TripViewCell.swift */; };
 		270B15FF27DF5FD60023EBAA /* TripViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE164227DA52B40032035C /* TripViewCell.swift */; };
 		270B160027DF5FDB0023EBAA /* TripViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27BE164427DA52C40032035C /* TripViewCell.xib */; };
@@ -84,7 +84,7 @@
 		27BE164727DA53190032035C /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE164627DA53190032035C /* UIExtensions.swift */; };
 		27BE164927DA551C0032035C /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE164827DA551C0032035C /* Keys.swift */; };
 		27BE164C27DA56BD0032035C /* Connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE164B27DA56BD0032035C /* Connector.swift */; };
-		27BE164E27DA56CC0032035C /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE164D27DA56CC0032035C /* Urls.swift */; };
+		27BE164E27DA56CC0032035C /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE164D27DA56CC0032035C /* Endpoint.swift */; };
 		27BE165027DA57B00032035C /* ValidationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE164F27DA57B00032035C /* ValidationService.swift */; };
 		27BE165227DA57F10032035C /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE165127DA57F10032035C /* Errors.swift */; };
 		27BE165527DA58D60032035C /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE165427DA58D60032035C /* Trip.swift */; };
@@ -144,7 +144,7 @@
 		27BE164627DA53190032035C /* UIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
 		27BE164827DA551C0032035C /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
 		27BE164B27DA56BD0032035C /* Connector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connector.swift; sourceTree = "<group>"; };
-		27BE164D27DA56CC0032035C /* Urls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Urls.swift; sourceTree = "<group>"; };
+		27BE164D27DA56CC0032035C /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		27BE164F27DA57B00032035C /* ValidationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationService.swift; sourceTree = "<group>"; };
 		27BE165127DA57F10032035C /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
 		27BE165427DA58D60032035C /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
@@ -321,7 +321,7 @@
 			isa = PBXGroup;
 			children = (
 				27BE164B27DA56BD0032035C /* Connector.swift */,
-				27BE164D27DA56CC0032035C /* Urls.swift */,
+				27BE164D27DA56CC0032035C /* Endpoint.swift */,
 				27BE164F27DA57B00032035C /* ValidationService.swift */,
 			);
 			path = Connector;
@@ -538,7 +538,7 @@
 				27BE164727DA53190032035C /* UIExtensions.swift in Sources */,
 				27BE165227DA57F10032035C /* Errors.swift in Sources */,
 				27BE165727DA59BD0032035C /* Route.swift in Sources */,
-				27BE164E27DA56CC0032035C /* Urls.swift in Sources */,
+				27BE164E27DA56CC0032035C /* Endpoint.swift in Sources */,
 				27B8EB7C27DCAD92002991B3 /* LicenseViewController.swift in Sources */,
 				27BE165927DA5A1B0032035C /* Location.swift in Sources */,
 				27BE166427DC89160032035C /* TripDetailsViewController.swift in Sources */,
@@ -570,7 +570,7 @@
 				270B15FE27DF5FD60023EBAA /* TripViewCell.swift in Sources */,
 				270B160327DF5FE00023EBAA /* LicenseViewController.swift in Sources */,
 				270B160227DF5FDE0023EBAA /* InfoLoadingTableView.swift in Sources */,
-				270B15FA27DF5FD30023EBAA /* Urls.swift in Sources */,
+				270B15FA27DF5FD30023EBAA /* Endpoint.swift in Sources */,
 				270B160827DF5FE60023EBAA /* Extensions.swift in Sources */,
 				270B160727DF5FE60023EBAA /* Keys.swift in Sources */,
 				270B160627DF5FE60023EBAA /* SceneDelegate.swift in Sources */,
@@ -600,7 +600,7 @@
 				270B161427DF5FE70023EBAA /* TripDetailsViewModel.swift in Sources */,
 				270B15EE27DF5FC90023EBAA /* TripsResponse.swift in Sources */,
 				270B15FF27DF5FD60023EBAA /* TripViewCell.swift in Sources */,
-				270B15FD27DF5FD30023EBAA /* Urls.swift in Sources */,
+				270B15FD27DF5FD30023EBAA /* Endpoint.swift in Sources */,
 				270B15FB27DF5FD30023EBAA /* Connector.swift in Sources */,
 				270B161127DF5FE70023EBAA /* Extensions.swift in Sources */,
 				270B161027DF5FE70023EBAA /* Keys.swift in Sources */,
